@@ -51,7 +51,7 @@ def test_suite():
     test(seconds_in(9010) == 10)
 
     print("even?")
-    test(is_even(8.3) == True)
+    test(is_even(8.3) == False)
     test(is_even(8) == True)
     
     print("odd?")
@@ -87,7 +87,7 @@ def test_suite():
     test(c2f(-40) == -40)
     test(c2f(12) == 54)
     test(c2f(18) == 64)
-    test(c2f(-48) == -5)
+    test(c2f(-48) == -54)
     
 def turn_clockwise(direction):
     """takes a compass point and return the next clockwise point"""
@@ -187,7 +187,7 @@ def is_factor(f,n):
         return False
 
 def is_multiple(a,b):
-    is_factor(b,a)
+    return is_factor(b,a)
     
 def f2c(t):
     return round((t-32)/1.8,0)
