@@ -89,6 +89,12 @@ def test_suite():
     test(c2f(18) == 64)
     test(c2f(-48) == -54)
     
+    print("prime?")
+    test(is_prime(11))
+    test(not is_prime(35))
+    test(is_prime(19911121))
+
+    
 def turn_clockwise(direction):
     """takes a compass point and return the next clockwise point"""
     if direction == "N":
@@ -198,4 +204,29 @@ def c2f(tc):
      #   return True
     #else:
      #   return False
+     
+def sqrt(n):
+    """Ex 7:Newtons square root function -"""
+    approx = n/2.0     # Start with some or other guess at the answer
+    while True:
+        better = (approx + n/approx)/2.0
+        print("better",better)
+        if abs(approx - better) < 0.001:
+            return better
+        approx = better
+
+
+print("sqrt",sqrt(25.0))
+
+def is_prime(n):
+    """Write a function, is_prime, which takes a single integer
+    argument and returns True when the argument is a prime number and False otherwise"""
+    for i in range(2,n):
+        if n % i == 0:
+            return False
+    return True
+
+
+
+print(sqrt(25))
 test_suite()
