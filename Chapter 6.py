@@ -219,8 +219,6 @@ def sqrt(n):
 print("sqrt",sqrt(25.0))
 
 def is_prime(n):
-    """Write a function, is_prime, which takes a single integer
-    argument and returns True when the argument is a prime number and False otherwise"""
     for i in range(2,n):
         if n % i == 0:
             return False
