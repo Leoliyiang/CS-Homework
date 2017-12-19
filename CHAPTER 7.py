@@ -12,6 +12,10 @@ def test(did_pass):
 def test_suite():
     test(sum_even_nofirst(mylist)==-16)
     test(sam(mylist2)==5)
+    print("prime?")
+    test(is_prime(11))
+    test(not is_prime(35))
+    test(is_prime(19911121))
     
 mylist=[-13,-3,0,2,3,7,11,12]
 mylist2=["apple", "banana","watermelon","grape","sam","pear","orange"]
@@ -62,7 +66,29 @@ def sam(numlist):
         else:
             count += 1
     return count
-        
+
+def sqrt(n):
+    """Ex 7:Newtons square root function -"""
+    approx = n/2.0     # Start with some or other guess at the answer
+    while True:
+        better = (approx + n/approx)/2.0
+        print("better",better)
+        if abs(approx - better) < 0.001:
+            return better
+        approx = better
+
+
+print("sqrt",sqrt(25.0))
+
+def is_prime(n):
+    for i in range(2,n):
+        if n % i == 0:
+            return False
+    return True
+
+
+
+print(sqrt(25))
     
 test_suite()
 print(count_odd(mylist))
