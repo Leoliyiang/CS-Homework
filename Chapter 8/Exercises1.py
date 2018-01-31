@@ -6,8 +6,10 @@ prefixes = "JKLMNOPQ"
 suffix = "ack"
 
 for p in prefixes:
-    while p==prefixes[5] or p==prefixes[7]:
-        print(p + "u" + suffix)
+    if p=="O" or p=="Q":
+        print(p+"u"+suffix)
+    else:
+        print(p+suffix)
 
 
 
