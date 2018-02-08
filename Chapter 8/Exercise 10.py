@@ -13,19 +13,19 @@ def test(did_pass):
         msg = ("Test at line {0} FAILED.".format(linenum))
     print(msg)
 
-
-
-def is_palindrome(word_pa):
+def reverse(word):
     rw=""
     n=0
-    word_hlf=int(len(word_pa)/2)
-    while n < word_hlf:
-        ch = word_pa[word_hlf-1-n]
+    while n < len(word):
+        ch=word[len(word)-1-n]
         n += 1
-        rw += ch
-    word_secondhalf=word_pa[word_hlf:]
-    if rw==word_secondhalf:
+        rw+=ch
+    return rw
+
+def is_palindrome(word_pa):
+    if word_pa == reverse(word_pa):
         return True
+    return False
 
 test(is_palindrome("abba"))
 test(not is_palindrome("abab"))

@@ -18,8 +18,10 @@ def reverse(word):
         rw+=ch
     return rw
 
+def mirror(word):
+    return word+reverse(word)
 
-test(reverse("happy") == "yppah")
-test(reverse("Python") == "nohtyP")
-test(reverse("") == "")
-test(reverse("a") == "a")
+test(mirror("good") == "gooddoog")
+test(mirror("Python") == "PythonnohtyP")
+test(mirror("") == "")
+test(mirror("a") == "aa")
