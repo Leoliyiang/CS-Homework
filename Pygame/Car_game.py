@@ -1,10 +1,6 @@
 import pygame
 import time
 import random
-import cx_Freeze
-
-executables = [cx_Freeze.Executable("pygameVideo15.py")]
-
 
 pygame.init()
 
