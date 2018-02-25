@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164d1458-fe69-41e3-89e9-e16a9f4397e6" name="Default" comment="" />
+    <list default="true" id="164d1458-fe69-41e3-89e9-e16a9f4397e6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Pygame/Car_game.py" afterPath="$PROJECT_DIR$/Pygame/Car_game.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,9 +36,11 @@
       <file leaf-file-name="Car_game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pygame/Car_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2233">
-              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="367">
+              <caret line="108" column="23" lean-forward="false" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -683,9 +687,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pygame/Car_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2233">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="367">
+          <caret line="108" column="23" lean-forward="false" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
