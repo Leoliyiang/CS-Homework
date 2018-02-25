@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164d1458-fe69-41e3-89e9-e16a9f4397e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Pygame/1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Pygame/Car_game.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Pygame/Practise 1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Pygame/racecar.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="164d1458-fe69-41e3-89e9-e16a9f4397e6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +34,7 @@
       <file leaf-file-name="Car_game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pygame/Car_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="-2233">
               <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
@@ -108,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="468" />
     <option name="y" value="-17" />
     <option name="width" value="1400" />
@@ -299,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -689,7 +683,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pygame/Car_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="-2233">
           <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
