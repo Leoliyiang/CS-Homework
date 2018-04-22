@@ -7,17 +7,17 @@ wn.bgcolor("lightgreen")             # Set the background color
 tess = turtle.Turtle()               # Create our favorite turtle
 tess.color("black")
 
-pensize=3
+size=3
 
 def pensize_in():
-    global pensize
-    pensize=pensize+1
-    tess.pensize(pensize)
+    global size
+    size=size+1
+    tess.pensize(size)
 
 def pensize_de():
-    global pensize
-    pensize=pensize-1
-    tess.pensize(pensize)
+    global size
+    size=size-1
+    tess.pensize(size)
 
 def tesscolor_y():
     tess.color("yellow")
